@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('imports', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->string('source')->nullable(); // 'goodreads', 'csv', etc.
+            $table->string('status')->default('queued'); // queued, processing, done, failed
+            $table->string('file_path')->nullable();
+            $table->json('meta')->nullable();
             $table->timestamps();
         });
     }
