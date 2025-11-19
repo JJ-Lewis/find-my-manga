@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('retailers', function (Blueprint $table) {
             $table->id();
+            $table->string('name')->unique();
+            $table->enum('type', ['api', 'scrape']);
+            $table->string('base_url')->nullable();
+            $table->json('config')->nullable();
             $table->timestamps();
         });
     }
