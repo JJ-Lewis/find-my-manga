@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49e386a7-78e9-4143-9411-86515789d0ae" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/find-my-manga/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/bootstrap/providers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/database/migrations/0001_01_01_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/database/migrations/0001_01_01_000001_create_cache_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/database/migrations/0001_01_01_000002_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/app/private/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/tests/Pest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-my-manga/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="35gtAOZclNaMDQiLzgEP6KGLhPV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49e386a7-78e9-4143-9411-86515789d0ae" name="Changes" comment="" />
+      <created>1763543398091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763543398091</updated>
+      <workItem from="1763543400824" duration="544000" />
+      <workItem from="1763545220335" duration="1175000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1763546818673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763546818673</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+</project>
