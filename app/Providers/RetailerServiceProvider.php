@@ -6,17 +6,11 @@ use Illuminate\Support\ServiceProvider;
 
 class RetailerServiceProvider extends ServiceProvider
 {
-    /**
-     * Register services.
-     */
     public function register(): void
     {
-        //
+        // nothing huge yet; config-based resolution is in AggregatorService
     }
 
-    /**
-     * Bootstrap services.
-     */
     public function boot(): void
     {
         //
